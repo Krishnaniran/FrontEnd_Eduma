@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>.frame {
+        height: 90vh;
+        width: 90vw;
+        margin: 5vh 5vw;
+        background-color: #eee;
+        background-position: center;
+        background-size: cover;
+        
+        animation: image 2s infinite alternate;
+      }
+      
+      @keyframes image {
+        0% {
+          background-image: url('https://unsplash.it/600/600');
+        }
+        100% {
+          background-image: url('https://unsplash.it/601/601');
+        }
+      }</style>
+</head>
+<body>
+    <div class="frame"></div>
+</body>
+</html>
